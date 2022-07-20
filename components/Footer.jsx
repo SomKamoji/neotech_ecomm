@@ -1,14 +1,15 @@
 import React from 'react';
 
-import { AiFillInstagram, AiOutlineTwitter} from 'react-icons/ai';
+import {  AiOutlineTwitter , AiFillLinkedin} from 'react-icons/ai';
 
 const Footer = () => {
   return (
     <div className="footer-container">
-    <p>2022 NeoTech All rights reserved</p>
+    <p>2022 NeoTech made by Som Kamoji</p>
     <p className="icons">
-      <AiFillInstagram />
-      <AiOutlineTwitter />
+      <a href="https://twitter.com/SomKamoji"><AiOutlineTwitter /></a>
+      
+      <a href="https://www.linkedin.com/in/som-kamoji-83220519b/"><AiFillLinkedin/></a>
     </p>
   </div>
   )
